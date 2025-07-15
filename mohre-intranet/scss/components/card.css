@@ -1,0 +1,63 @@
+.right-hero-card {
+  border-radius: 8px;
+  border: 1px solid rgba(187, 152, 92, 0.5);
+  background: #FFFCF6;
+  padding: 30px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease; }
+  .right-hero-card h5 {
+    color: #3E3E3E;
+    font-family: Roboto;
+    font-size: 24px;
+    padding-bottom: 8px;
+    padding-top: 25px;
+    font-weight: 500; }
+  .right-hero-card p {
+    color: #3E3E3E;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 6px; }
+  .right-hero-card button {
+    color: #BB985C;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400; }
+  .right-hero-cardhover h5 {
+    color: #BB985C; }
+
+.right-hero .right-hero-card .iconsize {
+  height: 50px !important;
+  width: 50px !important; }
+
+.right-hero-card:hover {
+  border: 1px solid rgba(187, 152, 92, 0.5);
+  background: #EFE6D4; }
+
+.custom-dotslider {
+  height: 8px !important;
+  width: 8px !important;
+  border-radius: 50%;
+  background-color: #BB985C;
+  margin: 0 10px; }
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: end !important;
+  padding: 0;
+  margin-right: 50px !important;
+  margin-bottom: 30px !important;
+  align-items: center; }
+
+.carousel-indicators .active {
+  height: 12px !important;
+  width: 12px !important; }
+
+/*# sourceMappingURL=card.css.map */

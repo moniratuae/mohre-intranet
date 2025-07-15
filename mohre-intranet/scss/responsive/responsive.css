@@ -1,0 +1,54 @@
+@media (max-width: 575px) {
+  .left-card-content h4 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px; }
+
+  .left-card-content {
+    padding: 16px; }
+
+  .left-card {
+    margin-bottom: 20px; }
+
+  .left-card-content button {
+    font-size: 14px;
+    padding-top: 8px; }
+
+  .menu-search {
+    height: 30px !important;
+    width: 200px !important; }
+
+  .logo-size {
+    max-width: 180px; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .menu-search {
+    height: 30px !important;
+    width: 250px !important; }
+
+  .logo-size {
+    max-width: 190px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-search {
+    height: 30px !important;
+    width: 280px !important; }
+
+  .logo-size {
+    max-width: 200px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .menu-searchbar {
+    height: 30px !important;
+    width: 320px !important; }
+
+  .logo-size {
+    max-width: 220px; } }
+@media (min-width: 1199px) and (max-width: 3000px) {
+  .menu-searchbar {
+    height: 45px !important;
+    width: 400px !important; }
+
+  .logo-size {
+    max-width: 280px; } }
+
+/*# sourceMappingURL=responsive.css.map */

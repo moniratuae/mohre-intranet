@@ -1,0 +1,56 @@
+    .gold-color { 
+        color: #bc974e; 
+    }
+    .user-avatar {
+      background-color: #bc974e;
+      color: white;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .online-indicator {
+      width: 13px;
+      height: 13px;
+      background-color: #28a745;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      border: 2px solid white;
+    }
+    .logo-size{
+        max-width: 280px;
+    }
+
+    .navbar-nav .nav-item:first-child .nav-link {
+      padding: 0 8px 0 0;
+      color: #3E3E3E;
+    }
+    .navbar .container{
+      padding: 0;
+    }
+    .vr{
+      height: 18px!important;
+      align-self:center!important;
+    }
+    .navbar-nav .nav-item .nav-link {
+      font-size: 14px;
+      font-family: 'roboto';
+      font-weight: 300;
+    }
+    .dropdown-toggle::after {
+
+      margin-left: 9px!important;
+      
+  }
+  .top-content span{
+    font-size: 14px;
+  }
+  .profile-info small{
+    font-size: 13px;
+  }

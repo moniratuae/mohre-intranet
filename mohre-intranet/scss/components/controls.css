@@ -1,0 +1,101 @@
+/* common setteing start*/
+ol,
+li,
+ul,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; }
+
+li {
+  list-style: none; }
+
+a:hover {
+  text-decoration: none; }
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 300; }
+
+body {
+  font-family: 'inter', sans-serif;
+  overflow-x: hidden;
+  background: #fff !important; }
+
+.icon img:focus {
+  outline: 0px; }
+
+.btn-custom {
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  padding-top: 20px; }
+
+/* Hero Section Start */
+.left-card {
+  position: relative; }
+
+.left-card img {
+  max-width: 100%;
+  position: relative;
+  border-radius: 8px; }
+
+.left-card-content {
+  border-radius: 8px;
+  background: rgba(187, 152, 92, 0.8);
+  padding: 25px;
+  position: absolute;
+  bottom: 0; }
+
+.left-card-content h4 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px; }
+
+.left-card-content button {
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  padding-top: 8px;
+  padding: 0; }
+
+.left-card-content button:hover {
+  background-color: transparent; }
+
+.services-section-header {
+  display: flex; }
+
+.primary-color {
+  color: #BB985C; }
+
+.backg-color {
+  background-color: #FDF9F2 !important;
+  border-radius: 8px;
+  border: 1px solid rgba(187, 152, 92, 0.5) !important;
+  background: #FFFCF6;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1); }
+
+.media-section {
+  padding-top: 40px; }
+
+.family-update-card {
+  padding: 50px 30px; }
+
+.family-arrow {
+  position: absolute;
+  bottom: 0px;
+  right: 10px; }
+
+/*# sourceMappingURL=controls.css.map */

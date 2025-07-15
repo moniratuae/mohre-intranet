@@ -1,0 +1,1374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/site.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <title>Mohre Intranet</title>
+  </head>
+  <body>
+    <!-- header section start ------------------->
+
+    <div class="container py-2 px-4">
+      <div class="row align-items-center">
+        <div class="col-md-4 align-items-center">
+          <img src="images/logo.png" alt="Logo" class="me-2 logo-size" />
+        </div>
+    
+        <div class="col-md-8 text-end d-flex flex-wrap justify-content-end align-items-center gap-3 top-content">
+          <div class="d-flex align-items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="23" viewBox="0 0 40 23" fill="none">
+              <path d="M25.4146 15.2889C25.0643 15.2901 24.7159 15.3335 24.3795 15.4178V15.2889C24.3795 13.9801 23.7756 12.7249 22.7007 11.7994C21.6257 10.874 20.1678 10.3541 18.6477 10.3541H18.3097C17.8296 9.10492 16.8473 8.04438 15.5397 7.36331C14.2321 6.68224 12.685 6.42537 11.177 6.63894C9.66903 6.85252 8.2991 7.52251 7.31381 8.52832C6.32851 9.53413 5.79257 10.8097 5.80244 12.1254V12.1733C4.39909 12.3511 3.1257 12.9791 2.23769 13.9314C1.34969 14.8838 0.912736 16.0899 1.01449 17.308C1.11624 18.5261 1.74917 19.666 2.78632 20.4991C3.82347 21.3322 5.18814 21.7969 6.6066 21.8H25.4275C26.4314 21.8 27.3943 21.4566 28.1042 20.8454C28.8142 20.2341 29.213 19.4052 29.213 18.5408C29.213 17.6764 28.8142 16.8474 28.1042 16.2361C27.3943 15.6249 26.4314 15.2815 25.4275 15.2815L25.4146 15.2889Z" stroke="#BB985C" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M19.4946 10.4094C19.6706 9.41235 20.1486 8.47283 20.8806 7.68552C21.6126 6.89821 22.5727 6.29091 23.6642 5.92483C24.7556 5.55874 25.9399 5.4468 27.0976 5.60029C28.2553 5.75377 29.3456 6.16726 30.2585 6.79908C31.1715 7.4309 31.8749 8.25874 32.2979 9.19917C32.7209 10.1396 32.8485 11.1594 32.6679 12.1558C32.4873 13.1523 32.0048 14.0901 31.2691 14.8749C30.5334 15.6596 29.5705 16.2636 28.4773 16.6258" stroke="#BB985C" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M26.082 2.85978V1" stroke="#BB985C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M19.1778 5.32352L17.6465 4.00879" stroke="#BB985C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M32.9897 17.2151L34.5168 18.5335" stroke="#BB985C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M35.8516 11.271H38.0117" stroke="#BB985C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M32.9897 5.32352L34.5168 4.00879" stroke="#BB985C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="fw-normal">50&deg;<sup>C</sup>  <i class="bi bi-caret-down-fill small black-color mx-2"></i></span>
+          </div>
+          <div class="vr"></div>
+          <div class="d-flex align-items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="24" viewBox="0 0 40 24" fill="none">
+              <path d="M7.47489 11.05C8.57533 11.05 9.6307 11.428 10.4088 12.1008C11.187 12.7735 11.6241 13.686 11.6241 14.6374V22.2082C11.6241 22.2728 11.5944 22.3348 11.5415 22.3805C11.4887 22.4263 11.417 22.4519 11.3422 22.4519H3.60758C3.53282 22.4519 3.46112 22.4263 3.40825 22.3805C3.35538 22.3348 3.32568 22.2728 3.32568 22.2082V14.6374C3.32568 13.686 3.76283 12.7735 4.54096 12.1008C5.31909 11.428 6.37445 11.05 7.47489 11.05V11.05Z" stroke="#BB985C" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M19.8256 14.0738C20.6048 14.0738 21.3521 14.3414 21.9031 14.8177C22.454 15.2941 22.7636 15.9402 22.7636 16.6139V22.2767C22.7636 22.3232 22.7422 22.3677 22.7042 22.4006C22.6662 22.4334 22.6147 22.4519 22.561 22.4519H17.0771C17.0234 22.4519 16.9719 22.4334 16.9339 22.4006C16.8959 22.3677 16.8745 22.3232 16.8745 22.2767V16.6139C16.8745 16.2793 16.9509 15.9481 17.0994 15.6392C17.2479 15.3302 17.4655 15.0497 17.7397 14.8137C18.0139 14.5777 18.3393 14.3908 18.6973 14.2638C19.0553 14.1368 19.4387 14.0723 19.8256 14.0738V14.0738Z" stroke="#BB985C" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M19.8256 6.64771C20.9045 6.6477 21.9728 6.83174 22.9692 7.18929C23.9657 7.54683 24.8708 8.07085 25.6327 8.73132C26.3946 9.3918 26.9982 10.1757 27.4091 11.0383C27.82 11.9008 28.03 12.8249 28.0271 13.7577V22.0482C28.0271 22.1563 27.9774 22.26 27.889 22.3364C27.8007 22.4128 27.6808 22.4557 27.5558 22.4557H12.0954C11.9704 22.4557 11.8505 22.4128 11.7621 22.3364C11.6737 22.26 11.6241 22.1563 11.6241 22.0482V13.7577C11.6212 12.8249 11.8312 11.9008 12.242 11.0383C12.6529 10.1757 13.2566 9.3918 14.0184 8.73132C14.7803 8.07085 15.6854 7.54683 16.6819 7.18929C17.6784 6.83174 18.7467 6.6477 19.8256 6.64771V6.64771Z" stroke="#BB985C" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M32.1853 11.05C33.2858 11.05 34.3411 11.428 35.1193 12.1008C35.8974 12.7735 36.3345 13.686 36.3345 14.6374V22.2082C36.3345 22.2728 36.3048 22.3348 36.252 22.3805C36.1991 22.4263 36.1274 22.4519 36.0526 22.4519H28.318C28.2433 22.4519 28.1716 22.4263 28.1187 22.3805C28.0658 22.3348 28.0361 22.2728 28.0361 22.2082V14.6374C28.0361 13.686 28.4733 12.7735 29.2514 12.1008C30.0295 11.428 31.0849 11.05 32.1853 11.05V11.05Z" stroke="#BB985C" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M19.8257 3.96655V6.64756" stroke="#BB985C" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M19.8166 1C19.4853 1.00026 19.1597 1.07515 18.8721 1.21728C18.5844 1.35942 18.3445 1.56389 18.1761 1.81057C18.0076 2.05724 17.9164 2.33761 17.9114 2.62404C17.9063 2.91047 17.9877 3.19309 18.1475 3.44406C18.3072 3.69502 18.5399 3.90567 18.8224 4.05526C19.105 4.20485 19.4278 4.28821 19.7589 4.29714C20.0901 4.30606 20.4183 4.24024 20.711 4.10616C21.0038 3.97208 21.2512 3.77436 21.4287 3.53248" stroke="#BB985C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M1 22.4519H39.0036" stroke="#BB985C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="fw-normal">Fajr - 4:29 AM  <i class="bi bi-caret-down-fill small black-color mx-2"></i></span>
+          </div>
+          
+          <div class="position-relative">
+            <input type="text" class="form-control menu-searchbar d-inline-block" placeholder="Search...">
+            <div class="position-absolute top-50 end-0 translate-middle-y me-3 gold-color">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                <path d="M8.95206 17.8063C10.9274 17.8059 12.8459 17.1446 14.402 15.9277L19.2943 20.82L20.8679 19.2464L15.9756 14.3541C17.1931 12.7979 17.8548 10.879 17.8553 8.90314C17.8553 3.99417 13.8611 0 8.95206 0C4.04304 0 0.0488281 3.99417 0.0488281 8.90314C0.0488281 13.8121 4.04304 17.8063 8.95206 17.8063ZM8.95206 2.22579C12.6347 2.22579 15.6295 5.22058 15.6295 8.90314C15.6295 12.5857 12.6347 15.5805 8.95206 15.5805C5.26946 15.5805 2.27464 12.5857 2.27464 8.90314C2.27464 5.22058 5.26946 2.22579 8.95206 2.22579Z" fill="#BB985C"/>
+              </svg>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main Navbar -->
+    <nav class="navbar container navbar-expand-xl bg-white px-4 mt-2">
+      <div class="container">
+        <button class="navbar-toggler border-0 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link fw-normal" href="#">Home</a>
+            </li>
+            <div class="vr d-none d-lg-none d-xl-inline mx-4"></div>
+            <li class="nav-item dropdown">
+              <a class="nav-link fw-normal" href="#" data-bs-toggle="dropdown">Services</a>
+             
+            </li>
+            <div class="vr d-none d-lg-none d-xl-inline mx-4"></div>
+            <li class="nav-item dropdown">
+              <a class="nav-link  fw-normal" href="#" data-bs-toggle="dropdown">Departments  <i class="bi bi-caret-down-fill small black-color mx-2"></i></a> 
+            </li>
+            <div class="vr d-none d-lg-none d-xl-inline mx-4"></div>
+            <li class="nav-item">
+              <a class="nav-link fw-normal" href="#">Knowledge Center  <i class="bi bi-caret-down-fill small black-color mx-2"></i></a>
+            </li>
+            <div class="vr d-none d-lg-none d-xl-inline mx-4"></div>
+            <li class="nav-item dropdown">
+              <a class="nav-link fw-normal" href="#" data-bs-toggle="dropdown">Media  <i class="bi bi-caret-down-fill small black-color mx-2"></i></a> 
+              
+            </li>
+          </ul>
+    
+          <!-- Right Side Info -->
+          <div class="d-flex align-items-center gap-3 profile-info">
+            <div class="d-flex align-items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                <path d="M11.3174 21C16.8402 21 21.3174 16.5228 21.3174 11C21.3174 5.47715 16.8402 1 11.3174 1C5.79454 1 1.31738 5.47715 1.31738 11C1.31738 16.5228 5.79454 21 11.3174 21Z" stroke="#BB985C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7.31738 11C7.31738 16.5228 9.10824 21 11.3174 21C13.5265 21 15.3174 16.5228 15.3174 11C15.3174 5.47715 13.5265 1 11.3174 1C9.10824 1 7.31738 5.47715 7.31738 11Z" stroke="#BB985C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M1.31738 11H21.3174" stroke="#BB985C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span class="fw-light mx-2">عربي</span>
+              <i class="bi bi-caret-down-fill small gold-color"></i>
+            </div>
+            <div class="vr d-none d-md-inline mx-2"></div>
+            <div class="d-flex align-items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22" fill="none">
+                <path d="M11.0869 21C16.6098 21 21.0869 16.5228 21.0869 11C21.0869 5.47715 16.6098 1 11.0869 1C5.56407 1 1.08691 5.47715 1.08691 11C1.08691 16.5228 5.56407 21 11.0869 21Z" stroke="#BB985C" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M10.9067 5.74805V11.24L17.6938 13.6" stroke="#BB985C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <small class="fw-normal" >IN: 9:03AM</small>
+              <small class="fw-normal">OUT: 3:00PM</small>
+            </div>
+            <div class="position-relative">
+              <div class="user-avatar">AK</div>
+              <div class="online-indicator position-absolute"></div>
+            </div>
+            <i class="bi bi-caret-down-fill gold-color small"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Mobile Offcanvas Menu -->
+    <div class="offcanvas container offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+      <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title fw-bold" id="mobileMenuLabel">
+          MINISTRY OF HUMAN RESOURCES <span class="text-primary">& EMIRATISATION</span>
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link fw-bold py-2" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold py-2" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold py-2" data-bs-toggle="collapse" href="#mobileDeptCollapse" role="button" aria-expanded="false" aria-controls="mobileDeptCollapse">
+              Departments <span class="float-end mx-1">›</span>
+            </a>
+            <div class="collapse" id="mobileDeptCollapse">
+              <ul class="nav flex-column ps-3">
+                <li class="nav-item"><a class="nav-link py-1" href="#">Department 1</a></li>
+                <li class="nav-item"><a class="nav-link py-1" href="#">Department 2</a></li>
+                <li class="nav-item"><a class="nav-link py-1" href="#">Department 3</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold py-2" href="#">Knowledge Center</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold py-2" data-bs-toggle="collapse" href="#mobileMediaCollapse" role="button" aria-expanded="false" aria-controls="mobileMediaCollapse">
+              Media <span class="float-end">›</span>
+            </a>
+            <div class="collapse" id="mobileMediaCollapse">
+              <ul class="nav flex-column ps-3">
+                <li class="nav-item"><a class="nav-link py-1" href="#">News</a></li>
+                <li class="nav-item"><a class="nav-link py-1" href="#">Press Releases</a></li>
+                <li class="nav-item"><a class="nav-link py-1" href="#">Gallery</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+    
+        <div class="mt-4 pt-3 border-top">
+          <div class="d-flex justify-content-between align-items-center">
+            <div>
+              <span class="me-2 small">IN: 9:03AM</span>
+              <span class="small">OUT: 3:00PM</span>
+            </div>
+            <div class="dropdown">
+              <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="mobileLanguageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                EN
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="mobileLanguageDropdown">
+                <li><a class="dropdown-item" href="#">English (EN)</a></li>
+                <li><a class="dropdown-item" href="#">العربية (AR)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Language Modal -->
+    <div class="modal container fade" id="languageModal" tabindex="-1" aria-labelledby="languageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header border-0 pb-0">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body pt-0">
+            <div class="d-flex justify-content-center mb-3">
+              <a href="#" class="btn btn-link text-dark fw-bold me-2">English</a>
+              <span class="border-start my-1"></span>
+              <a href="#" class="btn btn-link text-dark fw-bold ms-2">عربي</a>
+            </div>
+            
+            <div class="text-center">
+              <h6 class="text-muted mb-2">Other languages</h6>
+              <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                <a href="#" class="btn btn-sm btn-outline-secondary">Français</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary">Español</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary">中文</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary">हिन्दी</a>
+              </div>
+            </div>
+            
+            <p class="small text-muted mt-3">The list of "Other languages" listed above use Google Translate to create an automated translation of content for the purpose of display. Accuracy of automated content translation is not guaranteed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Mobile Offcanvas Menu -->
+    <div class="offcanvas container offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+      <div class="offcanvas-header border-bottom">
+        <div class="d-flex align-items-center">
+          <img src="assets/images/moj-logo.png" alt="Ministry of Justice" height="40" class="me-2">
+          <img src="assets/images/sr-stars-sm.png" alt="Gold star Logo" height="30">
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <form class="mb-4">
+          <div class="input-group">
+            <input type="search" class="form-control" placeholder="Search in website" aria-label="Search">
+            <button class="btn btn-primary" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </button>
+          </div>
+        </form>
+        
+        <div class="accordion" id="mobileMenuAccordion">
+          <!-- Home -->
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <a href="#" class="accordion-button collapsed px-0 bg-transparent shadow-none">
+                Home
+              </a>
+            </h2>
+          </div>
+          
+          <!-- About MOJ -->
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed py-2 px-0 bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbout">
+                About MOJ
+              </button>
+            </h2>
+            <div id="collapseAbout" class="accordion-collapse collapse" data-bs-parent="#mobileMenuAccordion">
+              <div class="accordion-body pt-0 pb-3 px-0">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#" class="text-decoration-none">About MOJ</a></li>
+                  <li class="mb-2"><a href="#" class="text-decoration-none">Our Strategy</a></li>
+                  <li class="mb-2"><a href="#" class="text-decoration-none">Organizational Chart</a></li>
+                  <li class="mb-2"><a href="#" class="text-decoration-none">Ministry Initiatives</a></li>
+                  <li class="mb-2"><a href="#" class="text-decoration-none">Federal Supreme Court</a></li>
+                  <li class="mb-2"><a href="#" class="text-decoration-none">Judicial Training Institute</a></li>
+                  <li><a href="#" class="text-decoration-none">Strategic Partners</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Other menu items would follow the same pattern -->
+          
+        </div>
+        
+        <div class="mt-4 pt-3 border-top">
+          <div class="d-flex justify-content-between">
+            <a href="#" class="btn btn-outline-secondary btn-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256" class="me-1">
+                <path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path>
+              </svg>
+              Login
+            </a>
+            <a href="#" class="btn btn-outline-secondary btn-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256" class="me-1">
+                <path d="M128,24h0A104,104,0,1,0,232,128,104.12,104.12,0,0,0,128,24Zm88,104a87.61,87.61,0,0,1-3.33,24H174.16a157.44,157.44,0,0,0,0-48h38.51A87.61,87.61,0,0,1,216,128ZM102,168H154a115.11,115.11,0,0,1-26,45A115.27,115.27,0,0,1,102,168Z"></path>
+              </svg>
+              EN
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+
+    <!-- hero section start ------------------->
+    <div class="container mt-4 pt-3">
+      <div class="row">
+        <div class="col-lg-12 col-xl-12 col-xxl-7 col-md-12 col-sm-12">
+          <!-- Carousel Wrapper -->
+          <div id="leftCardSlider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 (Active) -->
+      <div class="carousel-item active">
+        <div class="left-card d-flex align-items-center bg-light rounded-4" style="min-height: 300px;">
+          <img src="images/image-1.png" alt="Mohre Intranet" class="img-fluid me-4">
+
+          <div class="left-card-content">
+            <h4 class="fw-semibold mb-3">
+              “Our Workers Are The Pulse of Our Achievements” Initiative Draws Smiles on Workers’ Faces in UAE Eid Al-Fitr Celebrations
+            </h4>
+
+            <button class="left-card-content-btn btn btn-warning text-white fw-semibold d-inline-flex align-items-center gap-2">
+              Learn More
+              <!-- Arrow SVG -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 25">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 11.86c-.17 0-.33.07-.45.19a.65.65 0 0 0 0 .9c.12.12.28.19.45.19h7.45l-2.76 2.69a.63.63 0 0 0 0 .9c.12.12.28.19.45.19.17 0 .33-.07.45-.19l3.86-3.76a.63.63 0 0 0 0-.9L13.4 8.28a.65.65 0 0 0-.9 0 .63.63 0 0 0 0 .9l2.76 2.68H7.5z" fill="white"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="left-card d-flex align-items-center bg-light rounded-4" style="min-height: 300px;">
+          <img src="images/hero-image-2.png" alt="Mohre Intranet" class="img-fluid me-4">
+
+          <div class="left-card-content">
+            <h4 class="fw-semibold mb-3">
+              “ Added Our Workers Are The Pulse of Our Achievements” Initiative Draws Smiles on Workers’ Faces in UAE Eid Al-Fitr Celebrations
+            </h4>
+
+            <button class="left-card-content-btn btn btn-warning text-white fw-semibold d-inline-flex align-items-center gap-2">
+              Learn More
+              <!-- Arrow SVG -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 25">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 11.86c-.17 0-.33.07-.45.19a.65.65 0 0 0 0 .9c.12.12.28.19.45.19h7.45l-2.76 2.69a.63.63 0 0 0 0 .9c.12.12.28.19.45.19.17 0 .33-.07.45-.19l3.86-3.76a.63.63 0 0 0 0-.9L13.4 8.28a.65.65 0 0 0-.9 0 .63.63 0 0 0 0 .9l2.76 2.68H7.5z" fill="white"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+        <!-- dots -->
+        
+        <div class="carousel-indicators">
+          <button type="button" class="custom-dotslider mx-2 active" data-bs-target="#leftCardSlider" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" class="custom-dotslider mx-2" data-bs-target="#leftCardSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+      </div>
+        </div>
+        <div class="col-lg-12 col-xl-12 col-xxl-5 col-md-12 col-md-12 col-sm-12 right-hero">
+          <div class="row">
+            <div class="col-lg-6 col-xl-6  col-md-12 col-sm-12 mb-4">
+              <div class="right-hero-card">
+                
+                  <div class="iconsize" style="width: 100px; height: 50px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="63" height="59" viewBox="0 0 63 59" fill="none">
+                      <path d="M45.2318 30.5941C45.2344 28.1213 44.5779 25.6926 43.3301 23.5577C42.0823 21.4229 40.2881 19.6591 38.1323 18.4479C35.9765 17.2367 33.5368 16.6218 31.0645 16.6666C28.5921 16.7113 26.1763 17.4141 24.0657 18.7025C21.9551 19.9909 20.226 21.8184 19.0562 23.9969C17.8864 26.1755 17.3183 28.6265 17.4103 31.0975C17.5022 33.5686 18.251 35.9705 19.5795 38.0561C20.908 40.1417 22.7682 41.8356 24.9688 42.9635V46.3204H37.6637V42.9635C39.9425 41.7994 41.8553 40.0281 43.1908 37.8453C44.5263 35.6625 45.2327 33.1531 45.2318 30.5941V30.5941Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M25.0405 51.7017H37.4608" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M26.8406 56.7673H35.6497" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M35.6485 33.666L31.2439 36.9211V45.6794" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M26.8406 33.666L31.2452 36.9211" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M31.3159 2V9.49693" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M52.2297 10.5142L46.9299 15.8139" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M60.9999 31.3162H53.5029" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10.5132 10.7688L15.8129 16.0685" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M2 31.6824H9.49693" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </div>
+               
+                  <h5>Innovation</h5>
+                  <p>Share creative ideas that can shape the nation’s progress over the next 50 years.</p>
+                  <button class="btn-custom">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <g clip-path="url(#clip0_2304_15307)">
+                      <path d="M9.00879 0.563965C4.3489 0.563965 0.571289 4.34154 0.571289 9.00146C0.571289 13.6614 4.3489 17.439 9.00879 17.439C13.6687 17.439 17.4463 13.6614 17.4463 9.00146C17.4463 4.34157 13.6687 0.563965 9.00879 0.563965ZM14.1795 14.1722C12.8973 15.4505 11.1852 16.2056 9.37665 16.2904C7.56813 16.3753 5.79279 15.7838 4.39658 14.6312C3.00036 13.4785 2.08328 11.8474 1.82403 10.0555C1.56478 8.26366 1.98194 6.43947 2.99422 4.93839C4.0065 3.43731 5.54138 2.36687 7.29979 1.93565C9.0582 1.50443 10.9142 1.74332 12.5061 2.60578C14.098 3.46824 15.3117 4.89247 15.9109 6.60097C16.51 8.30947 16.4516 10.1798 15.7471 11.8476C15.3799 12.7166 14.8475 13.5061 14.1795 14.1722Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+                      <path d="M8.4248 5.80036L11.0634 8.43898H4.50488V9.56397H11.0634L8.4248 12.2026L9.22028 12.9981L13.2169 9.00147L9.22028 5.00488L8.4248 5.80036Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2304_15307">
+                        <rect width="18" height="18" fill="white"/>
+                      </clipPath>
+                    </defs>
+                  </svg></button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-6  col-md-12 col-sm-12 mb-4">
+              <div class="right-hero-card">
+                <div class="iconsize" >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="58" height="41" viewBox="0 0 58 41" fill="none">
+                    <path d="M21.8652 38.8776H50.7085C52.0403 38.8776 53.3175 38.3486 54.2592 37.4069C55.2009 36.4652 55.73 35.188 55.73 33.8562V7.02147C55.73 5.68969 55.2009 4.41246 54.2592 3.47075C53.3175 2.52904 52.0403 2 50.7085 2H17.366C16.0342 2 14.757 2.52904 13.8152 3.47075C12.8735 4.41246 12.3445 5.68969 12.3445 7.02147V9.76318" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M11.9327 22.3972C15.4215 22.3972 18.2497 19.569 18.2497 16.0802C18.2497 12.5914 15.4215 9.76318 11.9327 9.76318C8.44394 9.76318 5.61572 12.5914 5.61572 16.0802C5.61572 19.569 8.44394 22.3972 11.9327 22.3972Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M27.4187 26.9167H7.43323C5.99133 26.9194 4.60939 27.4941 3.59075 28.5146C2.57211 29.5351 2 30.9181 2 32.36V38.8779" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                  <h5>Training Center</h5>
+                  <p>View Available Trainings and Request Special Training Sessions</p>
+                  <button class="btn-custom">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <g clip-path="url(#clip0_2304_15307)">
+                      <path d="M9.00879 0.563965C4.3489 0.563965 0.571289 4.34154 0.571289 9.00146C0.571289 13.6614 4.3489 17.439 9.00879 17.439C13.6687 17.439 17.4463 13.6614 17.4463 9.00146C17.4463 4.34157 13.6687 0.563965 9.00879 0.563965ZM14.1795 14.1722C12.8973 15.4505 11.1852 16.2056 9.37665 16.2904C7.56813 16.3753 5.79279 15.7838 4.39658 14.6312C3.00036 13.4785 2.08328 11.8474 1.82403 10.0555C1.56478 8.26366 1.98194 6.43947 2.99422 4.93839C4.0065 3.43731 5.54138 2.36687 7.29979 1.93565C9.0582 1.50443 10.9142 1.74332 12.5061 2.60578C14.098 3.46824 15.3117 4.89247 15.9109 6.60097C16.51 8.30947 16.4516 10.1798 15.7471 11.8476C15.3799 12.7166 14.8475 13.5061 14.1795 14.1722Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+                      <path d="M8.4248 5.80036L11.0634 8.43898H4.50488V9.56397H11.0634L8.4248 12.2026L9.22028 12.9981L13.2169 9.00147L9.22028 5.00488L8.4248 5.80036Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2304_15307">
+                        <rect width="18" height="18" fill="white"/>
+                      </clipPath>
+                    </defs>
+                  </svg></button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-6  col-md-12 col-sm-12 mb-4">
+              <div class="right-hero-card">
+                <div class="iconsize">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="53" height="47" viewBox="0 0 53 47" fill="none">
+                    <path d="M36.5991 2.00003L25.3135 6.22852L39.7401 44.7323L51.0257 40.5038L36.5991 2.00003Z" stroke="#BB985C" stroke-width="2.19271" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M28.585 14.4026L39.6938 10.2341L28.585 14.4026Z" stroke="#BB985C" stroke-width="2.19271" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M36.5457 35.7129L47.6545 31.5515L36.5457 35.7129Z" stroke="#BB985C" stroke-width="2.19271" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M24.6856 3.88232H13.3428V13.0984H24.6856V3.88232Z" stroke="#BB985C" stroke-width="2.19271" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M24.6856 35.7839H13.3428V45H24.6856V35.7839Z" stroke="#BB985C" stroke-width="2.19271" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M24.6856 13.0981H13.3428V35.7838H24.6856V13.0981Z" stroke="#BB985C" stroke-width="2.19271" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.3428 3.88232H2V13.0984H13.3428V3.88232Z" stroke="#BB985C" stroke-width="2.19271" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.3428 35.7839H2V45H13.3428V35.7839Z" stroke="#BB985C" stroke-width="2.19271" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M13.3428 13.0981H2V35.7838H13.3428V13.0981Z" stroke="#BB985C" stroke-width="2.19271" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                
+                  <h5>Knowledge Center</h5>
+                  <p>Contribute ideas to enhance knowledge sharing, research, and educational resources</p>
+                  <button class="btn-custom">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <g clip-path="url(#clip0_2304_15307)">
+                      <path d="M9.00879 0.563965C4.3489 0.563965 0.571289 4.34154 0.571289 9.00146C0.571289 13.6614 4.3489 17.439 9.00879 17.439C13.6687 17.439 17.4463 13.6614 17.4463 9.00146C17.4463 4.34157 13.6687 0.563965 9.00879 0.563965ZM14.1795 14.1722C12.8973 15.4505 11.1852 16.2056 9.37665 16.2904C7.56813 16.3753 5.79279 15.7838 4.39658 14.6312C3.00036 13.4785 2.08328 11.8474 1.82403 10.0555C1.56478 8.26366 1.98194 6.43947 2.99422 4.93839C4.0065 3.43731 5.54138 2.36687 7.29979 1.93565C9.0582 1.50443 10.9142 1.74332 12.5061 2.60578C14.098 3.46824 15.3117 4.89247 15.9109 6.60097C16.51 8.30947 16.4516 10.1798 15.7471 11.8476C15.3799 12.7166 14.8475 13.5061 14.1795 14.1722Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+                      <path d="M8.4248 5.80036L11.0634 8.43898H4.50488V9.56397H11.0634L8.4248 12.2026L9.22028 12.9981L13.2169 9.00147L9.22028 5.00488L8.4248 5.80036Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2304_15307">
+                        <rect width="18" height="18" fill="white"/>
+                      </clipPath>
+                    </defs>
+                  </svg></button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-6  col-md-12 col-sm-12">
+              <div class="right-hero-card">
+                <div class="iconsize">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="58" height="54" viewBox="0 0 58 54" fill="none">
+                    <path d="M36.4776 31.2476H32.0895V36.2625L24.7821 31.2476H5.13443C4.72055 31.2477 4.31077 31.1657 3.92874 31.0065C3.5467 30.8473 3.19999 30.614 2.90859 30.3201C2.61719 30.0262 2.38687 29.6775 2.23095 29.2942C2.07502 28.9108 1.99657 28.5003 2.00012 28.0864V5.13431C2.00012 4.30304 2.33034 3.50583 2.91814 2.91804C3.50594 2.33024 4.30316 2 5.13443 2H36.4776C37.3088 2 38.1061 2.33024 38.6939 2.91804C39.2817 3.50583 39.6119 4.30304 39.6119 5.13431V28.0864C39.6154 28.5003 39.537 28.9108 39.381 29.2942C39.2251 29.6775 38.9948 30.0262 38.7034 30.3201C38.412 30.614 38.0653 30.8473 37.6832 31.0065C37.3012 31.1657 36.8914 31.2477 36.4776 31.2476V31.2476Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M52.5969 47.3668H48.2089V52.3817L40.9015 47.3668H21.2538C20.8399 47.3668 20.4302 47.2848 20.0481 47.1256C19.6661 46.9664 19.3194 46.7331 19.028 46.4392C18.7366 46.1453 18.5063 45.7967 18.3503 45.4133C18.1944 45.0299 18.116 44.6194 18.1195 44.2056V21.2535C18.1195 20.4222 18.4497 19.625 19.0375 19.0372C19.6253 18.4494 20.4225 18.1191 21.2538 18.1191H52.5969C53.4282 18.1191 54.2254 18.4494 54.8132 19.0372C55.401 19.625 55.7312 20.4222 55.7312 21.2535V44.2056C55.7348 44.6194 55.6564 45.0299 55.5004 45.4133C55.3445 45.7967 55.1142 46.1453 54.8228 46.4392C54.5314 46.7331 54.1846 46.9664 53.8026 47.1256C53.4206 47.2848 53.0108 47.3668 52.5969 47.3668V47.3668Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                  <h5>Feedback</h5>
+                  <p>Share creative ideas that can shape the nation’s progress over the next 50 years.</p>
+                  <button class="btn-custom">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <g clip-path="url(#clip0_2304_15307)">
+                      <path d="M9.00879 0.563965C4.3489 0.563965 0.571289 4.34154 0.571289 9.00146C0.571289 13.6614 4.3489 17.439 9.00879 17.439C13.6687 17.439 17.4463 13.6614 17.4463 9.00146C17.4463 4.34157 13.6687 0.563965 9.00879 0.563965ZM14.1795 14.1722C12.8973 15.4505 11.1852 16.2056 9.37665 16.2904C7.56813 16.3753 5.79279 15.7838 4.39658 14.6312C3.00036 13.4785 2.08328 11.8474 1.82403 10.0555C1.56478 8.26366 1.98194 6.43947 2.99422 4.93839C4.0065 3.43731 5.54138 2.36687 7.29979 1.93565C9.0582 1.50443 10.9142 1.74332 12.5061 2.60578C14.098 3.46824 15.3117 4.89247 15.9109 6.60097C16.51 8.30947 16.4516 10.1798 15.7471 11.8476C15.3799 12.7166 14.8475 13.5061 14.1795 14.1722Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+                      <path d="M8.4248 5.80036L11.0634 8.43898H4.50488V9.56397H11.0634L8.4248 12.2026L9.22028 12.9981L13.2169 9.00147L9.22028 5.00488L8.4248 5.80036Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2304_15307">
+                        <rect width="18" height="18" fill="white"/>
+                      </clipPath>
+                    </defs>
+                  </svg></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- List Of services section start ------------------->
+    <div class="container services-section">
+      <div class="services-section-header d-flex justify-content-between mb-2"> 
+        <h4 class="fw-bold mb-4">List of Services</h4>
+        <div class="filter-service">
+          <ul class="nav nav-tabss custom-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab">
+                All Services
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="favorites-tab" data-bs-toggle="tab" data-bs-target="#favorites" type="button" role="tab">
+                My Favorites
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Tab content -->
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="all" role="tabpanel">
+          <!-- Place your service cards here -->
+          <div class="d-flex flex-wrap gap-3">
+            <!-- Single Card -->
+            <div class="card servicescard p-3 text-center justify-content-center flex-grow-1" style="width: 160px; min-height: 160px;">
+              <div class="text-center mb-2">
+              <!--  <i class="bi bi-person-badge fs-2 text-warning"></i> Example icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="58" height="42" viewBox="0 0 58 42" fill="none">
+                  <path d="M47.7663 2H10.2378C5.68817 2 2 5.68817 2 10.2378V31.7622C2 36.3118 5.68817 40 10.2378 40H47.7663C52.3159 40 56.0041 36.3118 56.0041 31.7622V10.2378C56.0041 5.68817 52.3159 2 47.7663 2Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M17.2325 21.2444C19.5097 21.2444 21.3557 19.3984 21.3557 17.1212C21.3557 14.8441 19.5097 12.998 17.2325 12.998C14.9554 12.998 13.1094 14.8441 13.1094 17.1212C13.1094 19.3984 14.9554 21.2444 17.2325 21.2444Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M16.5299 21.2871H17.9357C19.5024 21.2961 21.0025 21.9219 22.1111 23.0289C23.2198 24.1359 23.8477 25.6351 23.859 27.2018V28.8563H10.5723V27.2018C10.5836 25.6292 11.2162 24.1249 12.3323 23.0169C13.4483 21.9089 14.9572 21.2871 16.5299 21.2871V21.2871Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M31.5737 15.0295H46.9692" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M31.5737 23.6016H38.86" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="fw-medium text-muted">Talaby</div>
+              <div class="position-absolute top-0 end-0 m-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M4.70898 1.00977C5.61622 0.941838 6.53123 1.24592 7.28223 1.89648L7.32812 1.93652C7.47135 2.06248 7.60773 2.20002 7.73633 2.34766L8.42871 3.14941L9.18457 4.02441L9.94141 3.15039L10.6279 2.35742L10.6289 2.35547C10.9998 1.92488 11.4378 1.5904 11.9121 1.36523C12.386 1.14031 12.891 1.02781 13.3965 1.0293C13.9017 1.03084 14.4051 1.14639 14.8779 1.37402C15.3514 1.60201 15.7881 1.93917 16.1572 2.37207L16.1611 2.37598C16.933 3.27247 17.3815 4.49224 17.3848 5.78223C17.388 7.07175 16.9449 8.29356 16.1777 9.19531L9.22168 17.2188L2.22266 9.14258H2.22168C0.596695 7.26871 0.593979 4.1873 2.20605 2.32812L2.20801 2.3252C2.88919 1.53319 3.78454 1.07904 4.70898 1.00977Z" stroke="#BB985C" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card servicescard p-3 text-center justify-content-center flex-grow-1" style="width: 160px; min-height: 160px;">
+              <div class="text-center mb-2">
+              <!--  <i class="bi bi-person-badge fs-2 text-warning"></i> Example icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path d="M13.4606 2H5.82003C3.70799 2 1.99585 3.71214 1.99585 5.82418V13.4648C1.99585 15.5768 3.70799 17.2889 5.82003 17.2889H13.4606C15.5727 17.2889 17.2848 15.5768 17.2848 13.4648V5.82418C17.2848 3.71214 15.5727 2 13.4606 2Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M34.1718 2.31738H26.5312C24.4192 2.31738 22.707 4.02953 22.707 6.14156V13.7822C22.707 15.8942 24.4192 17.6063 26.5312 17.6063H34.1718C36.2838 17.6063 37.996 15.8942 37.996 13.7822V6.14156C37.996 4.02953 36.2838 2.31738 34.1718 2.31738Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.4606 22.3931H5.82003C3.70799 22.3931 1.99585 24.1052 1.99585 26.2172V33.8578C1.99585 35.9699 3.70799 37.682 5.82003 37.682H13.4606C15.5727 37.682 17.2848 35.9699 17.2848 33.8578V26.2172C17.2848 24.1052 15.5727 22.3931 13.4606 22.3931Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M30.2546 25.752V35.5102" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M35.1257 30.6309H25.3752" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              </div>
+              <div class="fw-medium text-muted">Dashboard System</div>
+              <div class="position-absolute top-0 end-0 m-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M4.70898 1.00977C5.61622 0.941838 6.53123 1.24592 7.28223 1.89648L7.32812 1.93652C7.47135 2.06248 7.60773 2.20002 7.73633 2.34766L8.42871 3.14941L9.18457 4.02441L9.94141 3.15039L10.6279 2.35742L10.6289 2.35547C10.9998 1.92488 11.4378 1.5904 11.9121 1.36523C12.386 1.14031 12.891 1.02781 13.3965 1.0293C13.9017 1.03084 14.4051 1.14639 14.8779 1.37402C15.3514 1.60201 15.7881 1.93917 16.1572 2.37207L16.1611 2.37598C16.933 3.27247 17.3815 4.49224 17.3848 5.78223C17.388 7.07175 16.9449 8.29356 16.1777 9.19531L9.22168 17.2188L2.22266 9.14258H2.22168C0.596695 7.26871 0.593979 4.1873 2.20605 2.32812L2.20801 2.3252C2.88919 1.53319 3.78454 1.07904 4.70898 1.00977Z" stroke="#BB985C" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card servicescard p-3 text-center justify-content-center flex-grow-1" style="width: 160px; min-height: 160px;">
+              <div class="text-center mb-2">
+              <!--  <i class="bi bi-person-badge fs-2 text-warning"></i> Example icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="43" viewBox="0 0 44 43" fill="none">
+                <path d="M25.3663 36.0595H37.2475C38.5079 36.0595 39.7167 35.5588 40.608 34.6675C41.4992 33.7763 42 32.5674 42 31.307V8.33665L35.6633 2H16.6534C15.3929 2 14.1841 2.5007 13.2929 3.39197C12.4016 4.28323 11.9009 5.49205 11.9009 6.75249V11.505" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M35.6396 2.79199V7.77418C35.6396 8.44714 35.9065 9.09267 36.3816 9.56927C36.8567 10.0459 37.5014 10.3147 38.1743 10.3168H41.208" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11.9011 24.1782C15.4007 24.1782 18.2378 21.3412 18.2378 17.8415C18.2378 14.3419 15.4007 11.5049 11.9011 11.5049C8.40147 11.5049 5.56445 14.3419 5.56445 17.8415C5.56445 21.3412 8.40147 24.1782 11.9011 24.1782Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M21.802 33.9844C21.802 37.9448 17.3664 41.1131 11.901 41.1131C6.43565 41.1131 2 37.9448 2 33.9844C2 30.024 6.43565 28.6299 11.901 28.6299C17.3664 28.6299 21.802 30.0398 21.802 33.9844Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              </div>
+              <div class="fw-medium text-muted">PMO</div>
+              <div class="position-absolute top-0 end-0 m-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M4.70898 1.00977C5.61622 0.941838 6.53123 1.24592 7.28223 1.89648L7.32812 1.93652C7.47135 2.06248 7.60773 2.20002 7.73633 2.34766L8.42871 3.14941L9.18457 4.02441L9.94141 3.15039L10.6279 2.35742L10.6289 2.35547C10.9998 1.92488 11.4378 1.5904 11.9121 1.36523C12.386 1.14031 12.891 1.02781 13.3965 1.0293C13.9017 1.03084 14.4051 1.14639 14.8779 1.37402C15.3514 1.60201 15.7881 1.93917 16.1572 2.37207L16.1611 2.37598C16.933 3.27247 17.3815 4.49224 17.3848 5.78223C17.388 7.07175 16.9449 8.29356 16.1777 9.19531L9.22168 17.2188L2.22266 9.14258H2.22168C0.596695 7.26871 0.593979 4.1873 2.20605 2.32812L2.20801 2.3252C2.88919 1.53319 3.78454 1.07904 4.70898 1.00977Z" stroke="#BB985C" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card servicescard p-3 text-center justify-content-center flex-grow-1" style="width: 160px; min-height: 160px;">
+              <div class="text-center mb-2">
+              <!--  <i class="bi bi-person-badge fs-2 text-warning"></i> Example icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="39" viewBox="0 0 48 39" fill="none">
+                <path d="M32.0434 2H9.35791V37.5077H32.0434V2Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M32.0435 7.91797H38.9477V37.5077H46" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 37.5078H9.35798" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M24.1528 20.7402C25.2423 20.7402 26.1255 19.857 26.1255 18.7676C26.1255 17.6781 25.2423 16.7949 24.1528 16.7949C23.0634 16.7949 22.1802 17.6781 22.1802 18.7676C22.1802 19.857 23.0634 20.7402 24.1528 20.7402Z" stroke="#BB985C" stroke-width="3" stroke-miterlimit="10"/>
+              </svg>
+              </div>
+              <div class="fw-medium text-muted">Meeting Room</div>
+              <div class="position-absolute top-0 end-0 m-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M4.70898 1.00977C5.61622 0.941838 6.53123 1.24592 7.28223 1.89648L7.32812 1.93652C7.47135 2.06248 7.60773 2.20002 7.73633 2.34766L8.42871 3.14941L9.18457 4.02441L9.94141 3.15039L10.6279 2.35742L10.6289 2.35547C10.9998 1.92488 11.4378 1.5904 11.9121 1.36523C12.386 1.14031 12.891 1.02781 13.3965 1.0293C13.9017 1.03084 14.4051 1.14639 14.8779 1.37402C15.3514 1.60201 15.7881 1.93917 16.1572 2.37207L16.1611 2.37598C16.933 3.27247 17.3815 4.49224 17.3848 5.78223C17.388 7.07175 16.9449 8.29356 16.1777 9.19531L9.22168 17.2188L2.22266 9.14258H2.22168C0.596695 7.26871 0.593979 4.1873 2.20605 2.32812L2.20801 2.3252C2.88919 1.53319 3.78454 1.07904 4.70898 1.00977Z" stroke="#BB985C" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card servicescard p-3 text-center justify-content-center flex-grow-1" style="width: 160px; min-height: 160px;">
+              <div class="text-center mb-2">
+              <!--  <i class="bi bi-person-badge fs-2 text-warning"></i> Example icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="32" viewBox="0 0 44 32" fill="none">
+                <path d="M38.1752 2H5.81654C3.70643 2 1.99585 3.71058 1.99585 5.82069V26.3241C1.99585 28.4342 3.70643 30.1448 5.81654 30.1448H38.1752C40.2853 30.1448 41.9958 28.4342 41.9958 26.3241V5.82069C41.9958 3.71058 40.2853 2 38.1752 2Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M1.99585 11.1035L21.389 17.4483L41.9959 11.2001" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              </div>
+              <div class="fw-medium text-muted">Employee Email</div>
+              <div class="position-absolute top-0 end-0 m-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M4.70898 1.00977C5.61622 0.941838 6.53123 1.24592 7.28223 1.89648L7.32812 1.93652C7.47135 2.06248 7.60773 2.20002 7.73633 2.34766L8.42871 3.14941L9.18457 4.02441L9.94141 3.15039L10.6279 2.35742L10.6289 2.35547C10.9998 1.92488 11.4378 1.5904 11.9121 1.36523C12.386 1.14031 12.891 1.02781 13.3965 1.0293C13.9017 1.03084 14.4051 1.14639 14.8779 1.37402C15.3514 1.60201 15.7881 1.93917 16.1572 2.37207L16.1611 2.37598C16.933 3.27247 17.3815 4.49224 17.3848 5.78223C17.388 7.07175 16.9449 8.29356 16.1777 9.19531L9.22168 17.2188L2.22266 9.14258H2.22168C0.596695 7.26871 0.593979 4.1873 2.20605 2.32812L2.20801 2.3252C2.88919 1.53319 3.78454 1.07904 4.70898 1.00977Z" stroke="#BB985C" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card servicescard p-3 text-center justify-content-center flex-grow-1" style="width: 160px; min-height: 160px;">
+              <div class="text-center mb-2">
+              <!--  <i class="bi bi-person-badge fs-2 text-warning"></i> Example icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="46" height="43" viewBox="0 0 46 43" fill="none">
+                <path d="M17.524 30.8269H40.0705C41.1116 30.8269 42.11 30.4133 42.8461 29.6772C43.5822 28.9411 43.9958 27.9427 43.9958 26.9016V5.92523C43.9958 4.88419 43.5822 3.88579 42.8461 3.14967C42.11 2.41355 41.1116 2 40.0705 2H14.007C12.966 2 11.9676 2.41355 11.2315 3.14967C10.4953 3.88579 10.0818 4.88419 10.0818 5.92523V8.0684" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M9.75996 17.9442C12.4871 17.9442 14.6979 15.7334 14.6979 13.0063C14.6979 10.2792 12.4871 8.06836 9.75996 8.06836C7.03281 8.06836 4.82202 10.2792 4.82202 13.0063C4.82202 15.7334 7.03281 17.9442 9.75996 17.9442Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M21.8654 21.4771H6.24295C5.11583 21.4791 4.03559 21.9283 3.23933 22.7261C2.44307 23.5238 1.99585 24.6049 1.99585 25.732V30.8269" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.2927 27.1294V41.2445H10.4666" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              </div>
+              <div class="fw-medium text-muted">Training Registration</div>
+              <div class="position-absolute top-0 end-0 m-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M4.70898 1.00977C5.61622 0.941838 6.53123 1.24592 7.28223 1.89648L7.32812 1.93652C7.47135 2.06248 7.60773 2.20002 7.73633 2.34766L8.42871 3.14941L9.18457 4.02441L9.94141 3.15039L10.6279 2.35742L10.6289 2.35547C10.9998 1.92488 11.4378 1.5904 11.9121 1.36523C12.386 1.14031 12.891 1.02781 13.3965 1.0293C13.9017 1.03084 14.4051 1.14639 14.8779 1.37402C15.3514 1.60201 15.7881 1.93917 16.1572 2.37207L16.1611 2.37598C16.933 3.27247 17.3815 4.49224 17.3848 5.78223C17.388 7.07175 16.9449 8.29356 16.1777 9.19531L9.22168 17.2188L2.22266 9.14258H2.22168C0.596695 7.26871 0.593979 4.1873 2.20605 2.32812L2.20801 2.3252C2.88919 1.53319 3.78454 1.07904 4.70898 1.00977Z" stroke="#BB985C" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="favorites" role="tabpanel">
+          <div class="d-flex flex-wrap gap-3">
+            <!-- Single Card -->
+            <div class="card servicescard p-3 text-center justify-content-center flex-grow-1" style="width: 160px; min-height: 160px;">
+              <div class="text-center mb-2">
+              <!--  <i class="bi bi-person-badge fs-2 text-warning"></i> Example icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="32" viewBox="0 0 44 32" fill="none">
+                <path d="M38.1752 2H5.81654C3.70643 2 1.99585 3.71058 1.99585 5.82069V26.3241C1.99585 28.4342 3.70643 30.1448 5.81654 30.1448H38.1752C40.2853 30.1448 41.9958 28.4342 41.9958 26.3241V5.82069C41.9958 3.71058 40.2853 2 38.1752 2Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M1.99585 11.1035L21.389 17.4483L41.9959 11.2001" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              </div>
+              <div class="fw-medium text-muted">Employee Email</div>
+              <div class="position-absolute top-0 end-0 m-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M4.70898 1.00977C5.61622 0.941838 6.53123 1.24592 7.28223 1.89648L7.32812 1.93652C7.47135 2.06248 7.60773 2.20002 7.73633 2.34766L8.42871 3.14941L9.18457 4.02441L9.94141 3.15039L10.6279 2.35742L10.6289 2.35547C10.9998 1.92488 11.4378 1.5904 11.9121 1.36523C12.386 1.14031 12.891 1.02781 13.3965 1.0293C13.9017 1.03084 14.4051 1.14639 14.8779 1.37402C15.3514 1.60201 15.7881 1.93917 16.1572 2.37207L16.1611 2.37598C16.933 3.27247 17.3815 4.49224 17.3848 5.78223C17.388 7.07175 16.9449 8.29356 16.1777 9.19531L9.22168 17.2188L2.22266 9.14258H2.22168C0.596695 7.26871 0.593979 4.1873 2.20605 2.32812L2.20801 2.3252C2.88919 1.53319 3.78454 1.07904 4.70898 1.00977Z" stroke="#BB985C" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card servicescard p-3 text-center justify-content-center flex-grow-1" style="width: 160px; min-height: 160px;">
+              <div class="text-center mb-2">
+              <!--  <i class="bi bi-person-badge fs-2 text-warning"></i> Example icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="43" viewBox="0 0 44 43" fill="none">
+                <path d="M25.3663 36.0595H37.2475C38.5079 36.0595 39.7167 35.5588 40.608 34.6675C41.4992 33.7763 42 32.5674 42 31.307V8.33665L35.6633 2H16.6534C15.3929 2 14.1841 2.5007 13.2929 3.39197C12.4016 4.28323 11.9009 5.49205 11.9009 6.75249V11.505" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M35.6396 2.79199V7.77418C35.6396 8.44714 35.9065 9.09267 36.3816 9.56927C36.8567 10.0459 37.5014 10.3147 38.1743 10.3168H41.208" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11.9011 24.1782C15.4007 24.1782 18.2378 21.3412 18.2378 17.8415C18.2378 14.3419 15.4007 11.5049 11.9011 11.5049C8.40147 11.5049 5.56445 14.3419 5.56445 17.8415C5.56445 21.3412 8.40147 24.1782 11.9011 24.1782Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M21.802 33.9844C21.802 37.9448 17.3664 41.1131 11.901 41.1131C6.43565 41.1131 2 37.9448 2 33.9844C2 30.024 6.43565 28.6299 11.901 28.6299C17.3664 28.6299 21.802 30.0398 21.802 33.9844Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              </div>
+              <div class="fw-medium text-muted">PMO</div>
+              <div class="position-absolute top-0 end-0 m-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M4.70898 1.00977C5.61622 0.941838 6.53123 1.24592 7.28223 1.89648L7.32812 1.93652C7.47135 2.06248 7.60773 2.20002 7.73633 2.34766L8.42871 3.14941L9.18457 4.02441L9.94141 3.15039L10.6279 2.35742L10.6289 2.35547C10.9998 1.92488 11.4378 1.5904 11.9121 1.36523C12.386 1.14031 12.891 1.02781 13.3965 1.0293C13.9017 1.03084 14.4051 1.14639 14.8779 1.37402C15.3514 1.60201 15.7881 1.93917 16.1572 2.37207L16.1611 2.37598C16.933 3.27247 17.3815 4.49224 17.3848 5.78223C17.388 7.07175 16.9449 8.29356 16.1777 9.19531L9.22168 17.2188L2.22266 9.14258H2.22168C0.596695 7.26871 0.593979 4.1873 2.20605 2.32812L2.20801 2.3252C2.88919 1.53319 3.78454 1.07904 4.70898 1.00977Z" stroke="#BB985C" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card servicescard p-3 text-center justify-content-center flex-grow-1" style="width: 160px; min-height: 160px;">
+              <div class="text-center mb-2">
+              <!--  <i class="bi bi-person-badge fs-2 text-warning"></i> Example icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="39" viewBox="0 0 48 39" fill="none">
+                <path d="M32.0434 2H9.35791V37.5077H32.0434V2Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M32.0435 7.91797H38.9477V37.5077H46" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 37.5078H9.35798" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M24.1528 20.7402C25.2423 20.7402 26.1255 19.857 26.1255 18.7676C26.1255 17.6781 25.2423 16.7949 24.1528 16.7949C23.0634 16.7949 22.1802 17.6781 22.1802 18.7676C22.1802 19.857 23.0634 20.7402 24.1528 20.7402Z" stroke="#BB985C" stroke-width="3" stroke-miterlimit="10"/>
+              </svg>
+              </div>
+              <div class="fw-medium text-muted">Meeting Room</div>
+              <div class="position-absolute top-0 end-0 m-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M4.70898 1.00977C5.61622 0.941838 6.53123 1.24592 7.28223 1.89648L7.32812 1.93652C7.47135 2.06248 7.60773 2.20002 7.73633 2.34766L8.42871 3.14941L9.18457 4.02441L9.94141 3.15039L10.6279 2.35742L10.6289 2.35547C10.9998 1.92488 11.4378 1.5904 11.9121 1.36523C12.386 1.14031 12.891 1.02781 13.3965 1.0293C13.9017 1.03084 14.4051 1.14639 14.8779 1.37402C15.3514 1.60201 15.7881 1.93917 16.1572 2.37207L16.1611 2.37598C16.933 3.27247 17.3815 4.49224 17.3848 5.78223C17.388 7.07175 16.9449 8.29356 16.1777 9.19531L9.22168 17.2188L2.22266 9.14258H2.22168C0.596695 7.26871 0.593979 4.1873 2.20605 2.32812L2.20801 2.3252C2.88919 1.53319 3.78454 1.07904 4.70898 1.00977Z" stroke="#BB985C" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card servicescard p-3 text-center justify-content-center flex-grow-1" style="width: 160px; min-height: 160px;">
+              <div class="text-center mb-2">
+              <!--  <i class="bi bi-person-badge fs-2 text-warning"></i> Example icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                <path d="M13.4606 2H5.82003C3.70799 2 1.99585 3.71214 1.99585 5.82418V13.4648C1.99585 15.5768 3.70799 17.2889 5.82003 17.2889H13.4606C15.5727 17.2889 17.2848 15.5768 17.2848 13.4648V5.82418C17.2848 3.71214 15.5727 2 13.4606 2Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M34.1718 2.31738H26.5312C24.4192 2.31738 22.707 4.02953 22.707 6.14156V13.7822C22.707 15.8942 24.4192 17.6063 26.5312 17.6063H34.1718C36.2838 17.6063 37.996 15.8942 37.996 13.7822V6.14156C37.996 4.02953 36.2838 2.31738 34.1718 2.31738Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.4606 22.3931H5.82003C3.70799 22.3931 1.99585 24.1052 1.99585 26.2172V33.8578C1.99585 35.9699 3.70799 37.682 5.82003 37.682H13.4606C15.5727 37.682 17.2848 35.9699 17.2848 33.8578V26.2172C17.2848 24.1052 15.5727 22.3931 13.4606 22.3931Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M30.2546 25.752V35.5102" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M35.1257 30.6309H25.3752" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              </div>
+              <div class="fw-medium text-muted">Dashboard System</div>
+              <div class="position-absolute top-0 end-0 m-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M4.70898 1.00977C5.61622 0.941838 6.53123 1.24592 7.28223 1.89648L7.32812 1.93652C7.47135 2.06248 7.60773 2.20002 7.73633 2.34766L8.42871 3.14941L9.18457 4.02441L9.94141 3.15039L10.6279 2.35742L10.6289 2.35547C10.9998 1.92488 11.4378 1.5904 11.9121 1.36523C12.386 1.14031 12.891 1.02781 13.3965 1.0293C13.9017 1.03084 14.4051 1.14639 14.8779 1.37402C15.3514 1.60201 15.7881 1.93917 16.1572 2.37207L16.1611 2.37598C16.933 3.27247 17.3815 4.49224 17.3848 5.78223C17.388 7.07175 16.9449 8.29356 16.1777 9.19531L9.22168 17.2188L2.22266 9.14258H2.22168C0.596695 7.26871 0.593979 4.1873 2.20605 2.32812L2.20801 2.3252C2.88919 1.53319 3.78454 1.07904 4.70898 1.00977Z" stroke="#BB985C" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card servicescard p-3 text-center justify-content-center flex-grow-1" style="width: 160px; min-height: 160px;">
+              <div class="text-center mb-2">
+              <!--  <i class="bi bi-person-badge fs-2 text-warning"></i> Example icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="46" height="43" viewBox="0 0 46 43" fill="none">
+                <path d="M17.524 30.8269H40.0705C41.1116 30.8269 42.11 30.4133 42.8461 29.6772C43.5822 28.9411 43.9958 27.9427 43.9958 26.9016V5.92523C43.9958 4.88419 43.5822 3.88579 42.8461 3.14967C42.11 2.41355 41.1116 2 40.0705 2H14.007C12.966 2 11.9676 2.41355 11.2315 3.14967C10.4953 3.88579 10.0818 4.88419 10.0818 5.92523V8.0684" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M9.75996 17.9442C12.4871 17.9442 14.6979 15.7334 14.6979 13.0063C14.6979 10.2792 12.4871 8.06836 9.75996 8.06836C7.03281 8.06836 4.82202 10.2792 4.82202 13.0063C4.82202 15.7334 7.03281 17.9442 9.75996 17.9442Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M21.8654 21.4771H6.24295C5.11583 21.4791 4.03559 21.9283 3.23933 22.7261C2.44307 23.5238 1.99585 24.6049 1.99585 25.732V30.8269" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.2927 27.1294V41.2445H10.4666" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              </div>
+              <div class="fw-medium text-muted">Training Registration</div>
+              <div class="position-absolute top-0 end-0 m-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M4.70898 1.00977C5.61622 0.941838 6.53123 1.24592 7.28223 1.89648L7.32812 1.93652C7.47135 2.06248 7.60773 2.20002 7.73633 2.34766L8.42871 3.14941L9.18457 4.02441L9.94141 3.15039L10.6279 2.35742L10.6289 2.35547C10.9998 1.92488 11.4378 1.5904 11.9121 1.36523C12.386 1.14031 12.891 1.02781 13.3965 1.0293C13.9017 1.03084 14.4051 1.14639 14.8779 1.37402C15.3514 1.60201 15.7881 1.93917 16.1572 2.37207L16.1611 2.37598C16.933 3.27247 17.3815 4.49224 17.3848 5.78223C17.388 7.07175 16.9449 8.29356 16.1777 9.19531L9.22168 17.2188L2.22266 9.14258H2.22168C0.596695 7.26871 0.593979 4.1873 2.20605 2.32812L2.20801 2.3252C2.88919 1.53319 3.78454 1.07904 4.70898 1.00977Z" stroke="#BB985C" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card servicescard p-3 text-center justify-content-center flex-grow-1" style="width: 160px; min-height: 160px;">
+              <div class="text-center mb-2">
+              <!--  <i class="bi bi-person-badge fs-2 text-warning"></i> Example icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="58" height="42" viewBox="0 0 58 42" fill="none">
+                  <path d="M47.7663 2H10.2378C5.68817 2 2 5.68817 2 10.2378V31.7622C2 36.3118 5.68817 40 10.2378 40H47.7663C52.3159 40 56.0041 36.3118 56.0041 31.7622V10.2378C56.0041 5.68817 52.3159 2 47.7663 2Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M17.2325 21.2444C19.5097 21.2444 21.3557 19.3984 21.3557 17.1212C21.3557 14.8441 19.5097 12.998 17.2325 12.998C14.9554 12.998 13.1094 14.8441 13.1094 17.1212C13.1094 19.3984 14.9554 21.2444 17.2325 21.2444Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M16.5299 21.2871H17.9357C19.5024 21.2961 21.0025 21.9219 22.1111 23.0289C23.2198 24.1359 23.8477 25.6351 23.859 27.2018V28.8563H10.5723V27.2018C10.5836 25.6292 11.2162 24.1249 12.3323 23.0169C13.4483 21.9089 14.9572 21.2871 16.5299 21.2871V21.2871Z" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M31.5737 15.0295H46.9692" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M31.5737 23.6016H38.86" stroke="#BB985C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="fw-medium text-muted">Talaby</div>
+              <div class="position-absolute top-0 end-0 m-2">
+               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                  <path d="M4.70898 1.00977C5.61622 0.941838 6.53123 1.24592 7.28223 1.89648L7.32812 1.93652C7.47135 2.06248 7.60773 2.20002 7.73633 2.34766L8.42871 3.14941L9.18457 4.02441L9.94141 3.15039L10.6279 2.35742L10.6289 2.35547C10.9998 1.92488 11.4378 1.5904 11.9121 1.36523C12.386 1.14031 12.891 1.02781 13.3965 1.0293C13.9017 1.03084 14.4051 1.14639 14.8779 1.37402C15.3514 1.60201 15.7881 1.93917 16.1572 2.37207L16.1611 2.37598C16.933 3.27247 17.3815 4.49224 17.3848 5.78223C17.388 7.07175 16.9449 8.29356 16.1777 9.19531L9.22168 17.2188L2.22266 9.14258H2.22168C0.596695 7.26871 0.593979 4.1873 2.20605 2.32812L2.20801 2.3252C2.88919 1.53319 3.78454 1.07904 4.70898 1.00977Z" stroke="#BB985C" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  
+    <!-- Update start ------------------->
+    <div class="container py-4 my-4">
+      <div class="row mb-4">
+        <div class="col-lg-6">
+          <div class="family-update-card backg-color body-bg">
+            <h4 class="fw-semibold">Upcoming Events</h4>
+            <hr class="text-warning-subtle">
+        
+            <!-- Carousel -->
+            <div id="familyUpdateCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+        
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                  <div class="d-flex align-items-start justify-content-between pt-3">
+                    
+                    <!-- Text content -->
+                    <div class="flex-grow-1 pe-3">
+                      <h5 class="fw-semibold mb-2 primary-color mt-2">New Baby Celebration</h5>
+                      <p class="mb-2">Congratulations to <strong>Hamza Abdallah Al Essa</strong> for his new born baby!</p>
+                      <div class="d-flex align-items-center text-muted my-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none">
+                          <path d="M4.26095 1.5H18.2816C19.2481 1.5 20.0342 2.17275 20.0342 3V16.5L16.529 13.5H4.26095C3.2944 13.5 2.50837 12.8273 2.50837 12V3C2.50837 2.17275 3.2944 1.5 4.26095 1.5Z" fill="#808080"/>
+                        </svg>  <a href="#" class="text-decoration-none mx-2 primary-color">46 Comments</a>
+                      </div>
+                      <a href="#" class="primary-color fw-semibold text-decoration-none">
+                        View all updates <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                          <g clip-path="url(#clip0_2304_15795)">
+                            <path d="M9.00879 0.563965C4.3489 0.563965 0.571289 4.34154 0.571289 9.00146C0.571289 13.6614 4.3489 17.439 9.00879 17.439C13.6687 17.439 17.4463 13.6614 17.4463 9.00146C17.4463 4.34157 13.6688 0.563965 9.00879 0.563965V0.563965ZM14.1795 14.1722C12.8973 15.4505 11.1852 16.2056 9.37665 16.2904C7.56813 16.3753 5.79279 15.7838 4.39658 14.6312C3.00036 13.4785 2.08328 11.8474 1.82403 10.0555C1.56478 8.26366 1.98194 6.43947 2.99422 4.93839C4.0065 3.43731 5.54138 2.36687 7.29979 1.93565C9.0582 1.50443 10.9142 1.74332 12.5061 2.60578C14.098 3.46824 15.3117 4.89247 15.9109 6.60097C16.51 8.30947 16.4516 10.1798 15.7471 11.8476C15.3799 12.7166 14.8475 13.5061 14.1795 14.1722V14.1722Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+                            <path d="M8.4248 5.80036L11.0634 8.43898H4.50488V9.56397H11.0634L8.4248 12.2026L9.22028 12.9981L13.2169 9.00147L9.22028 5.00488L8.4248 5.80036V5.80036Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_2304_15795">
+                              <rect width="18" height="18" fill="white"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </a>
+                    </div>
+        
+                    <!-- Image -->
+                    <div class="flex-shrink-0">
+                      <img src="images/Upcoming-Events-1.png" alt="New Baby" class="img-fluid rounded" style="max-width: 150px;">
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                  <div class="d-flex align-items-start justify-content-between pt-3">
+                    
+                    <!-- Text content -->
+                    <div class="flex-grow-1 pe-3">
+                      <h5 class="fw-semibold mb-2 primary-color mt-2">Wedding Congratulations</h5>
+                      <p class="mb-2">Wishing <strong>Fatima Al Mazrouei</strong> a blessed married life! Wish you happy Wedding Day </p>
+                      <div class="d-flex align-items-center text-muted my-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none">
+                          <path d="M4.26095 1.5H18.2816C19.2481 1.5 20.0342 2.17275 20.0342 3V16.5L16.529 13.5H4.26095C3.2944 13.5 2.50837 12.8273 2.50837 12V3C2.50837 2.17275 3.2944 1.5 4.26095 1.5Z" fill="#808080"/>
+                        </svg>  <a href="#" class="text-decoration-none mx-2 primary-color">17 Comments</a>
+                      </div>
+                      <a href="#" class="primary-color fw-semibold text-decoration-none">
+                        View all updates <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                          <g clip-path="url(#clip0_2304_15795)">
+                            <path d="M9.00879 0.563965C4.3489 0.563965 0.571289 4.34154 0.571289 9.00146C0.571289 13.6614 4.3489 17.439 9.00879 17.439C13.6687 17.439 17.4463 13.6614 17.4463 9.00146C17.4463 4.34157 13.6688 0.563965 9.00879 0.563965V0.563965ZM14.1795 14.1722C12.8973 15.4505 11.1852 16.2056 9.37665 16.2904C7.56813 16.3753 5.79279 15.7838 4.39658 14.6312C3.00036 13.4785 2.08328 11.8474 1.82403 10.0555C1.56478 8.26366 1.98194 6.43947 2.99422 4.93839C4.0065 3.43731 5.54138 2.36687 7.29979 1.93565C9.0582 1.50443 10.9142 1.74332 12.5061 2.60578C14.098 3.46824 15.3117 4.89247 15.9109 6.60097C16.51 8.30947 16.4516 10.1798 15.7471 11.8476C15.3799 12.7166 14.8475 13.5061 14.1795 14.1722V14.1722Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+                            <path d="M8.4248 5.80036L11.0634 8.43898H4.50488V9.56397H11.0634L8.4248 12.2026L9.22028 12.9981L13.2169 9.00147L9.22028 5.00488L8.4248 5.80036V5.80036Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_2304_15795">
+                              <rect width="18" height="18" fill="white"/>
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </a>
+                    </div>
+        
+                    <!-- Image -->
+                    <div class="flex-shrink-0">
+                      <img src="images/Upcoming-Events-2.png" alt="New Baby" class="img-fluid rounded" style="max-width: 150px;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Controls -->
+              <div class="family-arrow d-flex justify-content-end gap-3 mt-3">
+                <!-- Prev -->
+                <button class="carousel-control-prev position-static p-0 border-0 bg-transparent" type="button"
+                  data-bs-target="#familyUpdateCarousel" data-bs-slide="prev">
+                  <!-- Optional: hide the default arrow icon -->
+                  <span class="carousel-control-prev-icon d-none"></span>
+                  <!-- Custom arrow icon -->
+                  <i class="bi bi-chevron-left fs-5" style="color: #BB985C;"></i>
+                </button>
+              
+                <!-- Next -->
+                <button class="carousel-control-next position-static p-0 border-0 bg-transparent" type="button"
+                  data-bs-target="#familyUpdateCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon d-none"></span>
+                  <i class="bi bi-chevron-right fs-5" style="color: #BB985C;"></i>
+                </button>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="family-update-card backg-color body-bg">
+            <h4 class="fw-semibold">Family Update</h4>
+            <hr class="text-warning-subtle">
+        
+            <!-- Carousel -->
+            <div id="eventUpdateCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+        
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                  <div class="d-flex align-items-start justify-content-between pt-3">
+                    
+                    <!-- Text content -->
+                    <div class="flex-grow-1 pe-3">
+                      <h5 class="fw-semibold mb-2 primary-color mt-2">New Baby Celebration</h5>
+                      <p class="mb-2">Congratulations to <strong>Hamza Abdallah Al Essa</strong> for his new born baby!</p>
+                      <div class="d-flex align-items-center text-muted my-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none">
+                          <path d="M4.26095 1.5H18.2816C19.2481 1.5 20.0342 2.17275 20.0342 3V16.5L16.529 13.5H4.26095C3.2944 13.5 2.50837 12.8273 2.50837 12V3C2.50837 2.17275 3.2944 1.5 4.26095 1.5Z" fill="#808080"/>
+                        </svg>  <a href="#" class="text-decoration-none mx-2 primary-color">76 Comments</a>
+                      </div>
+                      <a href="#" class="primary-color fw-semibold text-decoration-none">
+                        View all updates <i class="bi bi-arrow-right-circle ms-1"></i>
+                      </a>
+                    </div>
+        
+                    <!-- Image -->
+                    <div class="flex-shrink-0">
+                      <img src="images/family-update-1.png" alt="New Baby" class="img-fluid rounded" style="max-width: 150px;">
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                  <div class="d-flex align-items-start justify-content-between pt-3">
+                    
+                    <!-- Text content -->
+                    <div class="flex-grow-1 pe-3">
+                      <h5 class="fw-semibold mb-2 primary-color mt-2">Wedding Congratulations</h5>
+                      <p class="mb-2">Wishing <strong>Fatima Al Mazrouei</strong> a blessed married life! Wish you happy Wedding Day </p>
+                      <div class="d-flex align-items-center text-muted my-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none">
+                          <path d="M4.26095 1.5H18.2816C19.2481 1.5 20.0342 2.17275 20.0342 3V16.5L16.529 13.5H4.26095C3.2944 13.5 2.50837 12.8273 2.50837 12V3C2.50837 2.17275 3.2944 1.5 4.26095 1.5Z" fill="#808080"/>
+                        </svg>  <a href="#" class="text-decoration-none mx-2 primary-color">32 Comments</a>
+                      </div>
+                      <a href="#" class="primary-color fw-semibold text-decoration-none">
+                        View all updates <i class="bi bi-arrow-right-circle ms-1"></i>
+                      </a>
+                    </div>
+        
+                    <!-- Image -->
+                    <div class="flex-shrink-0">
+                      <img src="images/family-update-2.png" alt="New Baby" class="img-fluid rounded" style="max-width: 150px;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Controls -->
+              <div class="family-arrow d-flex justify-content-end gap-3 mt-3">
+                <!-- Previous Button -->
+                <button class="carousel-control-prev position-static border-0 bg-transparent p-0" type="button" data-bs-target="#eventUpdateCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon d-none"></span> <!-- Hides Bootstrap's default icon -->
+                  <i class="bi bi-chevron-left fs-5 fw-bold" style="color: #BB985C;"></i>
+                </button>
+              
+                <!-- Next Button -->
+                <button class="carousel-control-next position-static border-0 bg-transparent p-0" type="button" data-bs-target="#eventUpdateCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon d-none"></span>
+                  <i class="bi bi-chevron-right fw-bold fs-5" style="color: #BB985C;"></i>
+                </button>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Media section start ------------------->
+    <div class="container my-2 media-section">
+      <div class="services-section-header d-flex justify-content-between mb-2"> 
+        <h4 class="fw-bold mb-4">Keep up with the Latest</h4>
+        <div class="filter-service">
+          <ul class="nav nav-tabss custom-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="all-tabs" data-bs-toggle="tab" data-bs-target="#alls" type="button" role="tab">
+                All
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="news-tab" data-bs-toggle="tab" data-bs-target="#news" type="button" role="tab">
+                News
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="photos-tabs" data-bs-toggle="tab" data-bs-target="#photos" type="button" role="tab">
+                Photos
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="videos-tab" data-bs-toggle="tab" data-bs-target="#videos" type="button" role="tab">
+                Videos
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- tab content section-->
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="alls" role="tabpanel">
+          <div class="parentcare owl-carousel container">
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="news" role="tabpanel">
+          <div class="parentcare owl-carousel container">
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="photos" role="tabpanel">
+          <div class="parentcare owl-carousel container">
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="tab-pane fade" id="videos" role="tabpanel">
+          <div class="parentcare owl-carousel container">
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="item">
+              <div class="position-relative rounded overflow-hidden" style="min-height: 280px;">
+                <!-- Background Image -->
+                <img src="images/News-1.png" class="w-100 h-100 object-fit-cover" alt="News" style="object-fit: cover;">
+                
+                <!-- Full Overlay -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between text-white p-3" style="background: rgba(0,0,0,0.5);">
+                  
+                  <!-- Top Badge -->
+                  <span class="w-25 badge bg-warning text-dark">NEWS</span>
+                  
+                  <!-- Bottom Content -->
+                  <div>
+                    <h5 class="fw-semibold mb-2">Exceptional Celebration Of 50th UAE National Day In Ministries Of...</h5>
+                    <small>Monday, 27 September 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="text-end">
+        <button class="btn p-0 border-0 bg-transparent text-right">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M3.00007 12.4833C3.00007 14.8102 3.94828 17.0419 5.63611 18.6873C7.32394 20.3327 9.61312 21.2571 12.0001 21.2571C14.387 21.2571 16.6762 20.3327 18.364 18.6873C20.0519 17.0419 21.0001 14.8102 21.0001 12.4833C21.0001 10.1563 20.0519 7.92465 18.364 6.27924C16.6762 4.63383 14.387 3.70945 12.0001 3.70945C9.61312 3.70945 7.32394 4.63383 5.63611 6.27924C3.94828 7.92465 3.00007 10.1563 3.00007 12.4833ZM22.2858 12.4833C22.2858 15.1426 21.2021 17.6931 19.2732 19.5736C17.3442 21.454 14.728 22.5105 12.0001 22.5105C9.27213 22.5105 6.65592 21.454 4.72697 19.5736C2.79803 17.6931 1.71436 15.1426 1.71436 12.4833C1.71436 9.82388 2.79803 7.27342 4.72697 5.39295C6.65592 3.51249 9.27213 2.45605 12.0001 2.45605C14.728 2.45605 17.3442 3.51249 19.2732 5.39295C21.2021 7.27342 22.2858 9.82388 22.2858 12.4833ZM7.50007 11.8566C7.32957 11.8566 7.16606 11.9226 7.0455 12.0401C6.92494 12.1576 6.85721 12.317 6.85721 12.4833C6.85721 12.6495 6.92494 12.8089 7.0455 12.9264C7.16606 13.0439 7.32957 13.11 7.50007 13.11H14.9482L12.1878 15.7998C12.128 15.858 12.0806 15.9272 12.0483 16.0033C12.0159 16.0795 11.9993 16.1611 11.9993 16.2435C11.9993 16.3259 12.0159 16.4075 12.0483 16.4836C12.0806 16.5597 12.128 16.6289 12.1878 16.6872C12.2476 16.7454 12.3185 16.7916 12.3966 16.8232C12.4747 16.8547 12.5584 16.8709 12.6429 16.8709C12.7275 16.8709 12.8112 16.8547 12.8892 16.8232C12.9673 16.7916 13.0383 16.7454 13.0981 16.6872L16.9552 12.927C17.0151 12.8687 17.0626 12.7996 17.095 12.7234C17.1274 12.6473 17.1441 12.5657 17.1441 12.4833C17.1441 12.4008 17.1274 12.3192 17.095 12.2431C17.0626 12.1669 17.0151 12.0978 16.9552 12.0396L13.0981 8.27935C13.0383 8.22108 12.9673 8.17486 12.8892 8.14333C12.8112 8.11179 12.7275 8.09556 12.6429 8.09556C12.5584 8.09556 12.4747 8.11179 12.3966 8.14333C12.3185 8.17486 12.2476 8.22108 12.1878 8.27935C12.128 8.33762 12.0806 8.40679 12.0483 8.48292C12.0159 8.55905 11.9993 8.64065 11.9993 8.72305C11.9993 8.80546 12.0159 8.88706 12.0483 8.96319C12.0806 9.03932 12.128 9.10849 12.1878 9.16676L14.9482 11.8566H7.50007Z" fill="#BB985C" stroke="#BB985C" stroke-width="0.5"/>
+        </svg></button>
+      </div>
+    </div>
+
+    <!-- CTA section start ------------------->
+    <div class="container my-5">
+      <div class="opinion-box row align-items-center" style="background: url(images/cta.png)">
+        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-5 mb-4 mb-md-0">
+          <h4 class="fw-bold">Your Opinion Matters</h4>
+          <p>Share your opinion regarding the update on MOHRE Intranet Portal.</p>
+          <button class="comment-btn mt-3">Show Comments</button>
+        </div>
+        <div class="col-xl-5 col-lg-6 col-md-6 col-sm-6 position-relative">
+          <textarea class="w-100 opinion-input" maxlength="150" placeholder="Type your message here..."></textarea>
+          <button class="send-arrow border-0"> <i class="bi bi-send-fill"></i></button>
+        </div>
+    </div>
+    </div>
+     <!-- Footer section start ------------------->
+     <footer class="bg-white border-top pt-5 pb-3 mt-5">
+      <div class="container">
+        <div class="row">
+          <!-- Quick Links -->
+          <div class="col-md-7 col-lg-5 mb-4">
+            <h6 class="fw-bold text-uppercase">Quick Links</h6>
+            <div class="row">
+              <div class="col-4">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-muted text-decoration-none">About MOHRE</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Org. Structure</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Visitors Management</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Wiki Test</a></li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-muted text-decoration-none">Media Hub</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Announcements</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Book of the week</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Meeting Rooms</a></li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-muted text-decoration-none">Services</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">SMS Gateway</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Sitemap</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Business Links -->
+          <div class="col-md-5 col-lg-4 mb-4">
+            <h6 class="fw-bold text-uppercase">Business Links</h6>
+            <div class="row">
+              <div class="col-6">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-muted text-decoration-none">Attendance System</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Dashboard</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Employee Email</a></li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-muted text-decoration-none">Vision 2025</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">UAE Digital Library</a></li>
+                  <li><a href="#" class="text-muted text-decoration-none">Risk Management</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Helpdesk + Social -->
+          <div class="col-lg-3 text-center text-lg-end mb-4">
+            <div class="mb-3">
+              <a href="#" class="d-inline-block border rounded p-3 text-decoration-none text-dark">
+                <i class="bi bi-headset me-2"></i> Contact Helpdesk
+                <i class="bi bi-chevron-right ms-2"></i>
+              </a>
+            </div>
+            <div>
+              <p class="mb-1 fw-semibold">Stay Connected</p>
+              <a href="#" class="text-warning me-3 fs-5"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-warning me-3 fs-5"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="text-warning me-3 fs-5"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="text-warning fs-5"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Bottom Line -->
+        <hr>
+        <div class="d-flex flex-column flex-md-row justify-content-between text-muted small">
+          <p class="mb-1 mb-md-0">
+            © Copyright 2025 Ministry of Human Resources & Emiratisation. All Rights Reserved
+          </p>
+          <div>
+            <a href="#" class="text-muted text-decoration-none me-3">Accessibility</a>
+            <a href="#" class="text-muted text-decoration-none me-3">Help</a>
+            <a href="#" class="text-muted text-decoration-none">Contact Administrator</a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Bootstrap Icons -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    </footer>
+    
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="scripts/owl.carousel.min.js"></script>
+    <script src="scripts/customjs.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+  </body>
+</html>
